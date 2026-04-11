@@ -12,22 +12,22 @@ BASE_DIR = Path('.')
 MODELS = [
     {
         'name': 'CNN Computer Vision',
-        'script': 'cnn_computer_vision_cattle.py',
+        'script': 'models/cnn_computer_vision_cattle.py',
         'output_dir': 'cnn_cv_cattle_outputs',
     },
     {
         'name': 'Ensemble Learning + CV',
-        'script': 'ensemble_learning_computer_vision_cattle.py',
+        'script': 'models/ensemble_learning_computer_vision_cattle.py',
         'output_dir': 'ensemble_cv_cattle_outputs',
     },
     {
         'name': 'Transfer Learning CNN',
-        'script': 'transfer_learning_cnn_cattle.py',
+        'script': 'models/transfer_learning_cnn_cattle.py',
         'output_dir': 'tl_cattle_outputs',
     },
     {
         'name': 'Transfer Learning + Attention',
-        'script': 'transfer_learning_attention_cattle.py',
+        'script': 'models/transfer_learning_attention_cattle.py',
         'output_dir': 'tl_attention_cattle_outputs',
     },
 ]
